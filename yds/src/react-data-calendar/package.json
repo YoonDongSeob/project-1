@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-data-calendar",
+        "scope": null,
+        "escapedName": "react-data-calendar",
+        "name": "react-data-calendar",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Yoon_D_S\\yds"
+    ]
+  ],
+  "_from": "react-data-calendar@latest",
+  "_id": "react-data-calendar@0.1.0",
+  "_inCache": true,
+  "_location": "/react-data-calendar",
+  "_npmUser": {
+    "name": "zdoc",
+    "email": "zdoc01@gmail.com"
+  },
+  "_npmVersion": "1.4.28",
+  "_phantomChildren": {
+    "envify": "3.4.1"
+  },
+  "_requested": {
+    "raw": "react-data-calendar",
+    "scope": null,
+    "escapedName": "react-data-calendar",
+    "name": "react-data-calendar",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-data-calendar/-/react-data-calendar-0.1.0.tgz",
+  "_shasum": "e797e3a8629dcef1bf12a4cf00016cad3874e204",
+  "_shrinkwrap": null,
+  "_spec": "react-data-calendar",
+  "_where": "C:\\Users\\Yoon_D_S\\yds",
+  "author": {
+    "name": "Zachary Lumpkins"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "dependencies": {
+    "react": "^0.12.2"
+  },
+  "description": "React data calendar component.",
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "less": "^2.4.0",
+    "reactify": "^1.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "e797e3a8629dcef1bf12a4cf00016cad3874e204",
+    "tarball": "https://registry.npmjs.org/react-data-calendar/-/react-data-calendar-0.1.0.tgz"
+  },
+  "gitHead": "2a4c417a7ace49e76f51bcbee99c2c710546f6f8",
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-data-calendar",
+    "react-calendar",
+    "react-component",
+    "calendar",
+    "month"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "zdoc",
+      "email": "zdoc01@gmail.com"
+    }
+  ],
+  "name": "react-data-calendar",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "npm run-script build-js && npm run-script build-less",
+    "build-js": "browserify --debug --transform reactify src/index.js > dist/bundle.js",
+    "build-less": "lessc src/less/index.less > dist/styles.css"
+  },
+  "version": "0.1.0"
+}
